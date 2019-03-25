@@ -28,6 +28,15 @@
     <script src="assets/html5shiv/html5shiv.js"></script>
     <script src="assets/respond/respond.min.js"></script>
     <![endif]-->
+<style>
+    .a_project{
+        text-decoration: none;
+        margin-left:30px;
+        padding-bottom: 0px;
+        color:blue;
+    }
+</style>
+
   </head>
     <body id="top">
 
@@ -227,13 +236,33 @@
 
         <div class="container">
           <div class="row row-offset-0">
-                 
+            <div class="col-md-10 col-md-offset-1 col-sm-12" >
+               <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                      <a class="nav-item nav-link a_project" href="#">* Laravel - Inventory System</a>
+                      <a class="nav-item nav-link a_project" href="#">* PHP - Document Management(School Project)</a>
+                      <a class="nav-item nav-link a_project" href="#">* PHP - POPCOM Ticketing System (Capstone)</a>
+                      
+                    </div>
+                  </div>
+                </nav>
+            </div>
+            </div>
+
+            <div class="row row-offset-0">
           <!-- PORTFOLIO ITEM 1 -->
           <div class="col-md-3 col-sm-6">
               <div class="overlay-effect effects clearfix">
                   <div class="img">
-                      <a href="img/portfolio/portfolio-01-large.jpg" data-lightbox="roadtrip" title="Project One - Lorem Ipsum"><img class="grayscale" src="portfolio/img/portfolio/portfolio-01-thumbnail.jpg" alt="Portfolio Item"></a>
+                    
+
+                      <a href="portfolio/img/portfolio/Homepage.jpg" data-lightbox="roadtrip" title="Project One - InventorySystem"><img class="grayscale" src="portfolio/img/portfolio/HomepageThumbnail.jpg" alt="Portfolio Item">
+                        
+                      </a>
+                     
                   </div>
+
               </div>
           </div>
         <!-- PORTFOLIO ITEM END -->
@@ -242,7 +271,7 @@
           <div class="col-md-3 col-sm-6">
               <div class="overlay-effect effects clearfix">
                   <div class="img">
-                      <a href="portfolio/img/portfolio/portfolio-02-large.jpg" data-lightbox="roadtrip" title="Project Two - Lorem Ipsum"><img class="grayscale" src="portfolio/img/portfolio/portfolio-02-thumbnail.jpg" alt="Portfolio Item"></a>
+                      <a href="{{asset('portfolio/img/portfolio/Stockout.jpg')}}" data-lightbox="roadtrip" title="Project Two - InventorySystem"><img class="grayscale" src="portfolio/img/portfolio/StockoutThumbnail.jpg" alt="Portfolio Item"></a>
                   </div>
               </div>
           </div>
@@ -252,7 +281,7 @@
           <div class="col-md-3 col-sm-6">
               <div class="overlay-effect effects clearfix">
                   <div class="img">
-                      <a href="portfolio/img/portfolio/portfolio-03-large.jpg" data-lightbox="roadtrip" title="Project Three - Lorem Ipsum"><img class="grayscale" src="portfolio/img/portfolio/portfolio-03-thumbnail.jpg" alt="Portfolio Item"></a>
+                      <a href="portfolio/img/portfolio/report.jpg" data-lightbox="roadtrip" title="Project Three -InventorySystem"><img class="grayscale" src="portfolio/img/portfolio/reportthumbnail.jpg" alt="Portfolio Item"></a>
                   </div>
               </div>
           </div>
@@ -262,7 +291,7 @@
           <div class="col-md-3 col-sm-6 ">
               <div class="overlay-effect effects clearfix">
                   <div class="img">
-                      <a href="img/portfolio/portfolio-04-large.jpg" data-lightbox="roadtrip" title="Project Four - Lorem Ipsum"><img class="grayscale" src="portfolio/img/portfolio/portfolio-04-thumbnail.jpg" alt="Portfolio Item"></a>
+                      <a href="portfolio/img/portfolio/portfolio-04-large.jpg" data-lightbox="roadtrip" title="Project Four - Lorem Ipsum"><img class="grayscale" src="portfolio/img/portfolio/portfolio-04-thumbnail.jpg" alt="Portfolio Item"></a>
                   </div>
               </div>
           </div>
@@ -272,7 +301,7 @@
           <div class="col-md-3 col-sm-6 ">
               <div class="overlay-effect effects clearfix">
                   <div class="img">
-                      <a href="img/portfolio/portfolio-05-large.jpg" data-lightbox="roadtrip" title="Project Five - Lorem Ipsum"><img class="grayscale" src="portfolio/img/portfolio/portfolio-05-thumbnail.jpg" alt="Portfolio Item"></a>
+                      <a href="portfolio/img/portfolio/portfolio-05-large.jpg" data-lightbox="roadtrip" title="Project Five - Lorem Ipsum"><img class="grayscale" src="portfolio/img/portfolio/portfolio-05-thumbnail.jpg" alt="Portfolio Item"></a>
                   </div>
               </div>
           </div>
@@ -282,7 +311,7 @@
           <div class="col-md-3 col-sm-6">
               <div class="overlay-effect effects clearfix">
                   <div class="img">
-                      <a href="img/portfolio/portfolio-06-large.jpg" data-lightbox="roadtrip" title="Project Six - Lorem Ipsum"><img class="grayscale" src="portfolio/img/portfolio/portfolio-06-thumbnail.jpg" alt="Portfolio Item"></a>
+                      <a href="porfolio/img/portfolio/portfolio-06-large.jpg" data-lightbox="roadtrip" title="Project Six - Lorem Ipsum"><img class="grayscale" src="portfolio/img/portfolio/portfolio-06-thumbnail.jpg" alt="Portfolio Item"></a>
                   </div>
               </div>
           </div>
@@ -292,7 +321,7 @@
           <div class="col-md-3 col-sm-6">
               <div class="overlay-effect effects clearfix">
                   <div class="img">
-                      <a href="img/portfolio/portfolio-07-large.jpg" data-lightbox="roadtrip" title="Project Seven - Lorem Ipsum"><img class="grayscale" src="portfolio/img/portfolio/portfolio-07-thumbnail.jpg" alt="Portfolio Item"></a>
+                      <a href="portfolio/img/portfolio/portfolio-07-large.jpg" data-lightbox="roadtrip" title="Project Seven - Lorem Ipsum"><img class="grayscale" src="portfolio/img/portfolio/portfolio-07-thumbnail.jpg" alt="Portfolio Item"></a>
                   </div>
               </div>
           </div>
@@ -302,7 +331,7 @@
           <div class="col-md-3 col-sm-6">
               <div class="overlay-effect effects clearfix">
                   <div class="img">
-                      <a href="img/portfolio/portfolio-08-large.jpg" data-lightbox="roadtrip" title="Project Eight - Lorem Ipsum"><img class="grayscale" src="portfolio/img/portfolio/portfolio-08-thumbnail.jpg" alt="Portfolio Item"></a>
+                      <a href="portfolio/img/portfolio/portfolio-08-large.jpg" data-lightbox="roadtrip" title="Project Eight - Lorem Ipsum"><img class="grayscale" src="portfolio/img/portfolio/portfolio-08-thumbnail.jpg" alt="Portfolio Item"></a>
                   </div>
               </div>
           </div>
@@ -361,29 +390,32 @@
                       </div>
             <br>
                       <h2>Web development Training</h2><!-- Headline -->
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies nulla non metus pulvinar imperdiet. Praesent non adipiscing libero.</p><!-- Description-->
+                      <p>Completed  Web dev. training from November 27 to December 13, 2017</p>
+                      <p>Web Technologies : PHP(native), MYSQL Database and query ,BOOTSTRAP,HTML and CSS. </p><!-- Description-->
                     </div>
           <!-- Blog Entry 2 -->
                     <div class="col-md-4 wp4 delay-05s">
                       <div class="overlay-effect effects clearfix">
                         <div class="img">
-                          <img src="portfolio/img/blog2.jpg" class="grayscale" alt="Blog Item"><!-- Blog Image -->
+                          <img src="portfolio/img/ExcelCerficate.jpg" class="grayscale" alt="Excel Certificate" style="height:340px;width:300px;"><!-- Blog Image -->
                         </div>
                       </div>
             <br>
-                      <h2>Creative Hearts</h2><!-- Headline -->
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies nulla non metus pulvinar imperdiet. Praesent non adipiscing libero.</p><!-- Description -->
+                      <h2>Web development Training</h2><!-- Headline -->
+
+                      <p>Completed 108 hours of Web development training.</p>
+                      <p>Web Technologies : PHP(native) ,MYSQL DATABASE,Database Structure,JAVASCRIPT,jQuery,ajax, HTML AND CSS</p><!-- Description -->
                     </div>
           <!-- Blog Entry 3 -->
                     <div class="col-md-4 wp4 delay-1s">
                       <div class="overlay-effect effects clearfix">
                         <div class="img">
-                          <img src="portfolio/img/blog3.jpg"  class="grayscale" alt="Blog Item"><!-- Blog Image -->
+                          <img src="portfolio/img/Certificat_and_NCII-1.jpg"  class="grayscale" alt="Certificat_and_NCII-1" style="height:340px;width:300px;"><!-- Blog Image -->
                         </div>
                       </div>
             <br>
-                      <h2>Creative Ideas</h2><!-- Headline -->
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies nulla non metus pulvinar imperdiet. Praesent non adipiscing libero.</p><!-- Description-->
+                      <h2>Computer Hardware Servicing NCII</h2><!-- Headline -->
+                      <p>Passed Tesda NCII. Hardware and software installation including networking</p><!-- Description-->
                     </div>
                   </li>
                   <li>
@@ -391,12 +423,12 @@
                     <div class="col-md-4 wp4">
                       <div class="overlay-effect effects clearfix">
                         <div class="img">
-                          <img src="portfolio/img/blog1.jpg" class="grayscale" alt="Blog Item"><!-- Blog Image -->
+                          <img src="portfolio/img/CertificateOfRasperry.jpg" class="grayscale" alt="RaspberryPie" style="height:340px;width:300px;"><!-- Blog Image -->
                         </div>
                       </div>
             <br>
-                      <h2>Creative Minds</h2><!-- Headline -->
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies nulla non metus pulvinar imperdiet. Praesent non adipiscing libero.</p><!-- Description -->
+                      <h2>Seminar</h2><!-- Headline -->
+                      <p>Marchine learning</p><!-- Description -->
                     </div>
           <!-- Blog Entry 5 -->
                     <div class="col-md-4 wp4 delay-05s">
@@ -439,7 +471,7 @@
             <div class="row color-bg">
                 <!-- Left Image -->
                 <div class="col-md-6 nopadding features-intro-img wow fadeInLeft">
-                    <div class="about-image" style="background-image:url(img/clients.png)"></div>
+                    <div class="about-image" style="background-image:url(portfolio/img/clients.png)"></div>
                 </div>
                 <!-- Clients / Testimonials -->
                 <div class="col-md-6 nopadding about-text">
@@ -476,7 +508,7 @@
                     </form>   
                     </div>
                     <div class="col-md-6 nopadding features-intro-img">
-                         <div class="about-image" style="background-image:url(img/newsletter.png)"></div><!-- Right Image -->
+                         <div class="about-image" style="background-image:url(portfolio/img/newsletter.png)"></div><!-- Right Image -->
                     </div>
                 </div>
             </div>
@@ -505,8 +537,8 @@
               <div class="col-md-4">
                 <div class="dark-box box-hover">
                   <h2><i class="fa fa-map-marker"></i><span>Address</span></h2>
-                  {{-- <p>10 blk. 2 Phase 5B Bragados St. Greenwoods, Pasig
-                  <h1 class="arrow">My <span>Certificates</span> blog</h1> City</p> --}}
+                   <p>10 blk. 2 Phase 5B Bragados St. Greenwoods, Pasig
+                  
                 </div>
               </div>
               <!-- Phone Number Box -->
@@ -526,9 +558,13 @@
             </div>
             <div class="row">
               <!-- Google Maps (Change your Settings below) -->
-              <div class="col-md-6">
-                <div id="googlemaps"></div>
+              <div class="col-md-12">
+                <div id="googlemaps">
+                    
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3861.6475756387363!2d121.0950001143198!3d14.562135081923433!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c7cb77e6ea3b%3A0x5e7986538f3d27ca!2sGreenwoods+Executive+Village!5e0!3m2!1sen!2sph!4v1553499776068" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
               </div>
+           <?php /*   
               <!-- Contact Form -->
               <div class="col-md-6 contact">
                  <form role="form">
@@ -576,7 +612,7 @@
         <!-- ==========================
         CONTACT SECTION END
         =========================== -->
-        
+        */?>
         
         
         <!-- ==========================
@@ -586,7 +622,7 @@
           <div class="container">
             <div class="row">
               <div class="col-md-12 text-center">
-                <p>All Rights Reserved. &copy; 2015 <a href="http://www.themewagon.com">ThemeWagon</a>
+                <p>All Rights Reserved. &copy; 2019. Power by: <a href="http://www.themewagon.com">ThemeWagon</a>
               </div>
             </div>
           </div>
@@ -615,40 +651,14 @@
     <!-- Lightbox.js -->
     <script src="portfolio/assets/lightbox/js/lightbox.min.js"></script>
     <!-- Google Maps --> 
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDeKBBPJTG3v5w3cNPAgM6ZsJiPyL1mP_o&amp;sensor=false"></script>
+    {{-- <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDeKBBPJTG3v5w3cNPAgM6ZsJiPyL1mP_o&amp;sensor=false"></script> --}}
     <!-- Theme JavaScript Core -->
     <script src="portfolio/js/main.js"></script>
     <script src="portfolio/js/script.js"></script>
 
     <!-- GOOGLE MAPS DATA -->
     <script type="text/javascript">
-    // When the window has finished loading create our google map below
-        google.maps.event.addDomListener(window, 'load', init);
     
-        function init() {
-            // Basic options for a simple Google Map
-            // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
-            var mapOptions = {
-                // How zoomed in you want the map to start at (always required)
-                zoom: 15,
-                
-                scrollwheel: false,
-
-                // The latitude and longitude to center the map (always required)
-                center: new google.maps.LatLng(40.68961985411178, -74.01618003845215), // New York 
-
-                // How you would like to style the map. 
-                // This is where you would paste any style found on Snazzy Maps.
-                styles: [   {       featureType:'water',        stylers:[{color:'#F2F2F2'},{visibility:'on'}]   },{     featureType:'landscape',        stylers:[{color:'#FFFFFF'}] },{     featureType:'road',     stylers:[{saturation:-100},{lightness:45}]  },{     featureType:'road.highway',     stylers:[{visibility:'simplified'}] },{     featureType:'road.arterial',        elementType:'labels.icon',      stylers:[{visibility:'off'}]    },{     featureType:'administrative',       elementType:'labels.text.fill',     stylers:[{color:'#ADADAD'}] },{     featureType:'transit',      stylers:[{visibility:'off'}]    },{     featureType:'poi',      stylers:[{visibility:'off'}]    }]
-            };
-
-            // Get the HTML DOM element that will contain your map 
-            // We are using a div with id="map" seen below in the <body>
-            var mapElement = document.getElementById('googlemaps');
-
-            // Create the Google Map using out element and options defined above
-            var map = new google.maps.Map(mapElement, mapOptions);
-        }
     
     </script>
     
