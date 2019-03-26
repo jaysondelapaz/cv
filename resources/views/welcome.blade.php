@@ -1,675 +1,828 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
+<html>
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- Website Title -->
-    <title>Jayson Dela Paz - Web developer</title>
-    <!-- Bootstrap -->
-    <link href="portfolio/assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Font-Awesome -->
-    <link href="portfolio/assets/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-    <!-- Lightbox -->
-    <link href="portfolio/assets/lightbox/css/lightbox.css" rel="stylesheet">
-    <!-- Text Rotator-->
-    <link href="portfolio/assets/textrotator/simpletextrotator.css" rel="stylesheet">
-    <!-- FlexSlider -->
-    <link href="portfolio/assets/flexslider/flexslider.css" rel="stylesheet">
-    <!-- Theme Style -->
-    <link href="portfolio/css/style.css" rel="stylesheet">
-    <!-- Animations -->
-    <link href="portfolio/css/animate.css" rel="stylesheet">
-    <!-- Custom Favicon -->
-    <link href="portfolio/img/favicon.ico" rel="shortcut icon" type="image/x-icon" /> 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-    <script src="assets/html5shiv/html5shiv.js"></script>
-    <script src="assets/respond/respond.min.js"></script>
-    <![endif]-->
-<style>
-    .a_project{
-        text-decoration: none;
-        margin-left:30px;
-        padding-bottom: 0px;
-        color:blue;
-    }
-</style>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Jayson Dela Paz</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="" />
+  <meta name="keywords" content="" />
+  <meta name="author" content="" />
+
+  <!-- Facebook and Twitter integration -->
+  <meta property="og:title" content=""/>
+  <meta property="og:image" content=""/>
+  <meta property="og:url" content=""/>
+  <meta property="og:site_name" content=""/>
+  <meta property="og:description" content=""/>
+  <meta name="twitter:title" content="" />
+  <meta name="twitter:image" content="" />
+  <meta name="twitter:url" content="" />
+  <meta name="twitter:card" content="" />
+
+  <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+  <link rel="shortcut icon" href="favicon.ico">
+
+  <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700" rel="stylesheet">
+  
+  <!-- Animate.css -->
+  <link rel="stylesheet" href="portfolio/css/animate.css">
+  <!-- Icomoon Icon Fonts-->
+  <link rel="stylesheet" href="portfolio/css/icomoon.css">
+  <!-- Bootstrap  -->
+  <link rel="stylesheet" href="portfolio/css/bootstrap.css">
+  <!-- Flexslider  -->
+  <link rel="stylesheet" href="portfolio/css/flexslider.css">
+  <!-- Flaticons  -->
+{{--   <link rel="stylesheet" href="portfolio/fonts/flaticon/font/flaticon.css"> --}}
+  <!-- Owl Carousel -->
+  <link rel="stylesheet" href="portfolio/css/owl.carousel.min.css">
+  <link rel="stylesheet" href="portfolio/css/owl.theme.default.min.css">
+  <!-- Theme style  -->
+  <link rel="stylesheet" href="portfolio/css/style.css">
+
+  <!-- Modernizr JS -->
+  <script src="portfolio/js/modernizr-2.6.2.min.js"></script>
+  <!-- FOR IE9 below -->
+  <!--[if lt IE 9]>
+  <script src="js/respond.min.js"></script>
+  <![endif]-->
 
   </head>
-    <body id="top">
-
-      <!-- ****************************** Preloader ************************** -->
-      <div id="preloader"></div>
-
-
-        <!-- ==========================
-        HEADER SECTION 
-        =========================== -->
-        <header id="home">
-            <!-- creative menu -->
-            <div class="container-fluid">
-              <div class="row">
-                <div class="menu-wrap">
-                <nav class="menu">
-                    <!-- Menu Links -->
-                    <div class="icon-list">
-                        <a href="index.html#home"><i class="fa fa-fw fa-home"></i><span>Home</span></a>
-                        <a href="index.html#about"><i class="fa fa-fw fa-quote-left"></i><span>About</span></a>
-                        <a href="index.html#service"><i class="fa fa-fw fa-globe"></i><span>Service</span></a>
-                        <a href="index.html#portfolio"><i class="fa fa-fw fa-picture-o"></i><span>Portfolio</span></a>
-                        <a href="index.html#blog"><i class="fa fa-fw fa-rss"></i><span>Blog</span></a>
-                        <a href="index.html#contact"><i class="fa fa-fw fa-envelope-o"></i><span>Contact</span></a>
-                    </div>
-                </nav>
-                </div>
-                <button class="menu-button" id="open-button"></button><!-- menu button -->
-              </div><!--/row-->
-            </div><!--/container-->
-          <!-- Header Image -->
-          <section class="hero" id="hero">
-            <div class="container">
-              <!-- Slider Button (don't edit!)-->
-              <div class="row">
-                <div class="col-md-12 text-right navicon">
-                  <a id="nav-toggle" class="nav_slide_button" href="index.html#"><span></span></a>
-                </div>
-              </div>
-              <!-- HEADER HEADLINE -->
-              <div class="row">
-                <div class="col-md-8 col-md-offset-1 inner">
-                  <h1 class="animated fadeInDown">
-                    J<span style="color:#E04343;">ay</span>son<br/>
-                    <span>D<span style="color:#FFE800">ela </span>Paz</span>
-                  </h1><!-- Title -->
-                  <h3 class="animated fadeInUp delay-05s"><span class="rotate">Web Developer,Student,Dreamer</span></h3><!-- Text Rotator -->
-                </div>
-              </div>
-              <!-- Learn More Button -->
-              <div class="row">
-                <div class="col-md-6 col-md-offset-3 text-center">
-                  <a href="index.html#about" class="scrollto wow fadeInUp delay-5s ">
-                        <p>SEE MORE</p>
-                        <p class="scrollto--arrow"><img src="portfolio/img/scroll-down.png" alt="scroll down arrow"></p>
-                    </a>
-                </div>
-              </div>
-            </div>
-          </section>
-          <!-- Header Image End -->
-        </header>
-        <!-- ==========================
-        HEADER SECTION END  
-        =========================== -->
-        
-        
-        
-        
-        <!-- ==========================
-        ABOUT SECTION  
-        =========================== -->
-        <section class="intro text-center section-padding color-bg" id="about">
-          <div class="container">
-            <!-- WELCOME TEXT -->
-            <div class="row">
-              <div class="col-md-8 col-md-offset-2 wp1">
-                <h1 class="arrow">A little <span>about</span> me</h1><!-- Headline -->
-                <!-- about / welcome text -->
-                <p>I am a millennial who grew up from a  Nueva Ecija province where technology not so popular
-              so I use to put myself into the study about software development, Enthusiastic and eager to learn about software development.</p>
-              </div>
-            </div>
-          </div>
-        </section>
-
-
-
-
-<!-- ==========================
-        SERVICE SECTION 
-        =========================== -->
-        <section class="features text-center section-padding" id="service">
-          <div class="container">
-        <!-- Headline -->
-            <div class="row">
-              <div class="col-md-12">
-                <h1 class="arrow">I do amazing things for clients</h1>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-md-12">
-          <div class="services">
-          <!-- Service Box 1 -->
-                  <div class="col-md-4 wp2 item">
-                    <div class="icon">
-                      <i class="fa fa-camera"></i><!-- Icon -->
-                    </div>
-                    <h2>Photographer</h2><!-- Title -->
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a lorem quis neque interdum consequat ut sed sem. Duis quis tempor nunc. Interdum et malesuada fames ac ante ipsum
-                    primis in faucibus.</p><!-- Description -->
-                  </div>
-          <!-- Service Box 2 -->
-                  <div class="col-md-4 wp2 item delay-05s">
-                    <div class="icon">
-                      <i class="fa fa-desktop"></i><!-- Icon -->
-                    </div>
-                    <h2>Web Designer</h2><!-- Title -->
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a lorem quis neque interdum consequat ut sed sem. Duis quis tempor nunc. Interdum et malesuada fames ac ante ipsum
-                    primis in faucibus.</p><!-- Description -->
-                  </div>
-          <!-- Service Box 3 -->
-                  <div class="col-md-4 wp2 item delay-1s">
-                    <div class="icon">
-                      <i class="fa fa-cubes"></i><!-- Icon -->
-                    </div>
-                    <h2>3D Artist</h2><!-- Title -->
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a lorem quis neque interdum consequat ut sed sem. Duis quis tempor nunc. Interdum et malesuada fames ac ante ipsum
-                    primis in faucibus.</p><!-- Description -->
-                  </div>
-          </div>
-                  <div class="clearfix"></div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-
-
-
-
-        <div class="container-fluid">
-            <!-- About 1 -->
-            <div class="row color-bg">
-                <div class="col-md-6 nopadding features-intro-img">
-                    <div class="about-image" style="background-image:url(portfolio/img/about1.png)"></div><!-- about image 1 -->
-                </div>
-                <div class="col-md-6 about-text">
-                    <h6>High quality webdesign</h6><!-- headline-->
-                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</p><br><!-- About Text 1 -->
-                    <a href="index.html#team" class="weight-outline-btn">Read more</a><!-- read more button  -->            
-                </div>
-            </div>
-            <!-- About 2 -->
-            <div class="row">
-                <div class="col-md-6 about-text">
-                    <h6>Professional Photography</h6><!-- Headline -->
-                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</p><br><!-- About Text 2 -->
-                    <a href="index.html#team" class="weight-outline-btn">Read more</a>  <!-- read more button  -->              
-                </div>
-                <div class="col-md-6 nopadding features-intro-img">
-                    <div class="about-image" style="background-image:url(portfolio/img/about2.png)"></div><!-- about image 2 -->
-                </div>
-            </div>
-            <!-- About 3 -->
-            <div class="row color-bg">
-                <div class="col-md-6 nopadding features-intro-img">
-                    <div class="about-image" style="background-image:url(portfolio/img/about3.png)"></div><!-- about image 3 -->
-                </div>
-                <div class="col-md-6 about-text">
-                    <h6>3d modeling and animations</h6><!-- Headline-->
-                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</p><br><!-- About Text 3 -->
-                    <a href="index.html#team" class="weight-outline-btn">Read more</a><!-- read more button  -->                    
-                </div>
-            </div>
+  <body>
+  <div id="colorlib-page">
+    <div class="container-wrap">
+    <a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
+    <aside id="colorlib-aside" role="complementary" class="border js-fullheight">
+      <div class="text-center">
+        <div class="author-img" style="background-image: url(portfolio/images/about.jpg);"></div>
+        <h1 id="colorlib-logo"><a href="index.html">Jayson Dela Paz</a></h1>
+        <span class="position"><a href="#">Aspiry Web Developer</a> in Philippines</span>
+      </div>
+      <nav id="colorlib-main-menu" role="navigation" class="navbar">
+        <div id="navbar" class="collapse">
+          <ul>
+            <li class="active"><a href="#" data-nav-section="home">Home</a></li>
+            <li><a href="#" data-nav-section="about">About</a></li>
+            <li><a href="#" data-nav-section="services">Services</a></li>
+            <li><a href="#" data-nav-section="skills">Skills</a></li>
+            <li><a href="#" data-nav-section="education">Education</a></li>
+            <li><a href="#" data-nav-section="experience">Experience</a></li>
+            <li><a href="#" data-nav-section="work">Work</a></li>
+            <li><a href="#" data-nav-section="blog">Blog</a></li>
+            <li><a href="#" data-nav-section="contact">Contact</a></li>
+          </ul>
         </div>
-        <!-- ==========================
-        ABOUT SECTION END
-        =========================== --> 
+      </nav>
 
-        
-        
-        
-        <!-- ==========================
-        PORTFOLIO SECTION
-    =========================== -->
-        <section class="swag text-center" id="portfolio">
-          <div class="container">
-            <!-- Headline -->
-            <div class="row">
-              <h1 class="arrow">
-                Recent <span>Porojects</span>
-              </h1>
-            </div>
-          </div>
-        </section>
+      <div class="colorlib-footer">
+        <p><small>&copy; <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --> </span> <span>Demo Images: <a href="https://unsplash.com/" target="_blank">Unsplash.com</a></span></small></p>
+        <ul>
+          <li><a href="#"><i class="icon-facebook2"></i></a></li>
+          <li><a href="#"><i class="icon-twitter2"></i></a></li>
+          <li><a href="#"><i class="icon-instagram"></i></a></li>
+          <li><a href="#"><i class="icon-linkedin2"></i></a></li>
+        </ul>
+      </div>
 
-        <div class="container">
-          <div class="row row-offset-0">
-            <div class="col-md-10 col-md-offset-1 col-sm-12" >
-               <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
-                      <a class="nav-item nav-link a_project" href="#">* Laravel - Inventory System</a>
-                      <a class="nav-item nav-link a_project" href="#">* PHP - Document Management(School Project)</a>
-                      <a class="nav-item nav-link a_project" href="#">* PHP - POPCOM Ticketing System (Capstone)</a>
-                      
+    </aside>
+
+    <div id="colorlib-main">
+      <section id="colorlib-hero" class="js-fullheight" data-section="home">
+        <div class="flexslider js-fullheight">
+          <ul class="slides">
+            <li style="background-image: url(portfolio/images/img_bg_1.jpg);">
+              <div class="overlay"></div>
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
+                    <div class="slider-text-inner js-fullheight">
+                      <div class="desc">
+                        <h1>Hi! <br>I'm Jayson</h1>
+                        {{-- <h2>100% html5 bootstrap templates Made by <a href="https://colorlib.com/" target="_blank">colorlib.com</a></h2> --}}
+                        <p><a class="btn btn-primary btn-learn">Download CV <i class="icon-download4"></i></a></p>
+                      </div>
                     </div>
                   </div>
-                </nav>
-            </div>
-            </div>
-
-            <div class="row row-offset-0">
-          <!-- PORTFOLIO ITEM 1 -->
-          <div class="col-md-3 col-sm-6">
-              <div class="overlay-effect effects clearfix">
-                  <div class="img">
-                    
-
-                      <a href="portfolio/img/portfolio/Homepage.jpg" data-lightbox="roadtrip" title="Project One - InventorySystem"><img class="grayscale" src="portfolio/img/portfolio/HomepageThumbnail.jpg" alt="Portfolio Item">
+                </div>
+              </div>
+            </li>
+            <li style="background-image: url(portfolio/images/img_bg_2.jpg);">
+              <div class="overlay"></div>
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
+                    <div class="slider-text-inner">
+                      <div class="desc">
+                        <h1>I am <br>a web developer  </h1>
                         
-                      </a>
-                     
+                        <p><a class="btn btn-primary btn-learn">View Portfolio <i class="icon-briefcase3"></i></a></p>
+                      </div>
+                    </div>
                   </div>
+                </div>
+              </div>
+            </li>
+            </ul>
+          </div>
+      </section>
 
-              </div>
-          </div>
-        <!-- PORTFOLIO ITEM END -->
-    
-        <!-- PORTFOLIO ITEM 2 -->
-          <div class="col-md-3 col-sm-6">
-              <div class="overlay-effect effects clearfix">
-                  <div class="img">
-                      <a href="{{asset('portfolio/img/portfolio/Stockout.jpg')}}" data-lightbox="roadtrip" title="Project Two - InventorySystem"><img class="grayscale" src="portfolio/img/portfolio/StockoutThumbnail.jpg" alt="Portfolio Item"></a>
+      <section class="colorlib-about" data-section="about">
+        <div class="colorlib-narrow-content">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
+                <div class="col-md-12">
+                  <div class="about-desc">
+                    <span class="heading-meta">About Me</span>
+                    <h2 class="colorlib-heading">Who Am I?</h2>
+                    <p><strong>Hi, I'm Jayson Dela Paz</strong> a millennial from Nueva Ecija province with knowledge in web application/system development.
+                    I am here looking for a full-time job related to my expertise  . Hire me to know what i'm capable.</p>
                   </div>
+                </div>
               </div>
-          </div>
-        <!-- PORTFOLIO ITEM END -->
-                    
-        <!-- PORTFOLIO ITEM 3 -->
-          <div class="col-md-3 col-sm-6">
-              <div class="overlay-effect effects clearfix">
-                  <div class="img">
-                      <a href="portfolio/img/portfolio/report.jpg" data-lightbox="roadtrip" title="Project Three -InventorySystem"><img class="grayscale" src="portfolio/img/portfolio/reportthumbnail.jpg" alt="Portfolio Item"></a>
+              <div class="row">
+                <div class="col-md-3 animate-box" data-animate-effect="fadeInLeft">
+                  <div class="services color-1">
+                    <span class="icon2"><i class="icon-bulb"></i></span>
+                    <h3>Graphic Design</h3>
                   </div>
-              </div>
-          </div>
-        <!-- PORTFOLIO ITEM END -->
-                    
-        <!-- PORTFOLIO ITEM 4 -->
-          <div class="col-md-3 col-sm-6 ">
-              <div class="overlay-effect effects clearfix">
-                  <div class="img">
-                      <a href="portfolio/img/portfolio/portfolio-04-large.jpg" data-lightbox="roadtrip" title="Project Four - Lorem Ipsum"><img class="grayscale" src="portfolio/img/portfolio/portfolio-04-thumbnail.jpg" alt="Portfolio Item"></a>
+                </div>
+                <div class="col-md-3 animate-box" data-animate-effect="fadeInRight">
+                  <div class="services color-2">
+                    <span class="icon2"><i class="icon-globe-outline"></i></span>
+                    <h3>Web Design</h3>
                   </div>
-              </div>
-          </div>
-        <!-- PORTFOLIO ITEM END -->
-                 
-          <!-- PORTFOLIO ITEM 5 -->
-          <div class="col-md-3 col-sm-6 ">
-              <div class="overlay-effect effects clearfix">
-                  <div class="img">
-                      <a href="portfolio/img/portfolio/portfolio-05-large.jpg" data-lightbox="roadtrip" title="Project Five - Lorem Ipsum"><img class="grayscale" src="portfolio/img/portfolio/portfolio-05-thumbnail.jpg" alt="Portfolio Item"></a>
+                </div>
+                <div class="col-md-3 animate-box" data-animate-effect="fadeInTop">
+                  <div class="services color-3">
+                    <span class="icon2"><i class="icon-data"></i></span>
+                    <h3>Software</h3>
                   </div>
-              </div>
-          </div>
-        <!-- PORTFOLIO ITEM END -->
-    
-        <!-- PORTFOLIO ITEM 6 -->
-          <div class="col-md-3 col-sm-6">
-              <div class="overlay-effect effects clearfix">
-                  <div class="img">
-                      <a href="porfolio/img/portfolio/portfolio-06-large.jpg" data-lightbox="roadtrip" title="Project Six - Lorem Ipsum"><img class="grayscale" src="portfolio/img/portfolio/portfolio-06-thumbnail.jpg" alt="Portfolio Item"></a>
+                </div>
+                <div class="col-md-3 animate-box" data-animate-effect="fadeInBottom">
+                  <div class="services color-4">
+                    <span class="icon2"><i class="icon-phone3"></i></span>
+                    <h3>Application</h3>
                   </div>
+                </div>
               </div>
-          </div>
-        <!-- PORTFOLIO ITEM END -->
-                    
-        <!-- PORTFOLIO ITEM 7 -->
-          <div class="col-md-3 col-sm-6">
-              <div class="overlay-effect effects clearfix">
-                  <div class="img">
-                      <a href="portfolio/img/portfolio/portfolio-07-large.jpg" data-lightbox="roadtrip" title="Project Seven - Lorem Ipsum"><img class="grayscale" src="portfolio/img/portfolio/portfolio-07-thumbnail.jpg" alt="Portfolio Item"></a>
+              <div class="row">
+                <div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
+                  <div class="hire">
+                    <h2>I am happy to know you <br>that 300+ projects done sucessfully!</h2>
+                    <a href="#" class="btn-hire">Hire me</a>
                   </div>
-              </div>
-          </div>
-        <!-- PORTFOLIO ITEM END -->
-                    
-        <!-- PORTFOLIO ITEM 8 -->
-          <div class="col-md-3 col-sm-6">
-              <div class="overlay-effect effects clearfix">
-                  <div class="img">
-                      <a href="portfolio/img/portfolio/portfolio-08-large.jpg" data-lightbox="roadtrip" title="Project Eight - Lorem Ipsum"><img class="grayscale" src="portfolio/img/portfolio/portfolio-08-thumbnail.jpg" alt="Portfolio Item"></a>
-                  </div>
-              </div>
-          </div>
-        <!-- PORTFOLIO ITEM END -->
-        </div><!--/row-->
-      </div><!--/.container-->
-        <!-- ==========================
-        PORTFOLIO SECTION END
-        =========================== -->
-            
-
-
-            
-        <!-- ==========================
-        CUSTOM SPACER
-        =========================== -->
-        <div class="spacer-cta text-center">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-12">
-                <a href="index.html#contact" class="outline-btn">hire jayson dela paz</a>
+                </div>
               </div>
             </div>
           </div>
         </div>
-        <!-- ==========================
-        CUSTOM SPACER END
-        =========================== -->
-        
-        
+      </section>
 
-    <!-- ==========================
-        BLOG SECTION 
-        =========================== -->
-    <section class="text-center section-padding" id="blog">
-          <div class="container">
-        <!-- Headline -->
-        <div class="row">
-              <div class="col-md-12">
-                {{-- <h1 class="arrow">My <span>little</span> blog</h1> --}}
-                <h1 class="arrow">--- <span>Certificates</span> ---</h1>
-              </div>
-            </div><br><br>
+
       
-      <!-- Blog Slider -->
-            <div class="row">
-              <div id="blogSlider">
-                <ul class="slides">
-                  <li>
-            <!-- Blog Entry 1 -->
-                    <div class="col-md-4 wp4">
-                      <div class="overlay-effect effects clearfix">
-                        <div class="img">
-                          <img src="portfolio/img/OptimumCertificate_WebDev_III.jpg" class="grayscale" alt="Blog Item" style="height: 340px;width:300px;"><!-- Blog Image -->
-                        </div>
-                      </div>
-            <br>
-                      <h2>Web development Training</h2><!-- Headline -->
-                      <p>Completed  Web dev. training from November 27 to December 13, 2017</p>
-                      <p>Web Technologies : PHP(native), MYSQL Database and query ,BOOTSTRAP,HTML and CSS. </p><!-- Description-->
-                    </div>
-          <!-- Blog Entry 2 -->
-                    <div class="col-md-4 wp4 delay-05s">
-                      <div class="overlay-effect effects clearfix">
-                        <div class="img">
-                          <img src="portfolio/img/ExcelCerficate.jpg" class="grayscale" alt="Excel Certificate" style="height:340px;width:300px;"><!-- Blog Image -->
-                        </div>
-                      </div>
-            <br>
-                      <h2>Web development Training</h2><!-- Headline -->
-
-                      <p>Completed 108 hours of Web development training.</p>
-                      <p>Web Technologies : PHP(native) ,MYSQL DATABASE,Database Structure,JAVASCRIPT,jQuery,ajax, HTML AND CSS</p><!-- Description -->
-                    </div>
-          <!-- Blog Entry 3 -->
-                    <div class="col-md-4 wp4 delay-1s">
-                      <div class="overlay-effect effects clearfix">
-                        <div class="img">
-                          <img src="portfolio/img/Certificat_and_NCII-1.jpg"  class="grayscale" alt="Certificat_and_NCII-1" style="height:340px;width:300px;"><!-- Blog Image -->
-                        </div>
-                      </div>
-            <br>
-                      <h2>Computer Hardware Servicing NCII</h2><!-- Headline -->
-                      <p>Passed Tesda NCII. Hardware and software installation including networking</p><!-- Description-->
-                    </div>
-                  </li>
-                  <li>
-            <!-- Blog Entry 4 -->
-                    <div class="col-md-4 wp4">
-                      <div class="overlay-effect effects clearfix">
-                        <div class="img">
-                          <img src="portfolio/img/CertificateOfRasperry.jpg" class="grayscale" alt="RaspberryPie" style="height:340px;width:300px;"><!-- Blog Image -->
-                        </div>
-                      </div>
-            <br>
-                      <h2>Seminar</h2><!-- Headline -->
-                      <p>Marchine learning</p><!-- Description -->
-                    </div>
-          <!-- Blog Entry 5 -->
-                    <div class="col-md-4 wp4 delay-05s">
-                      <div class="overlay-effect effects clearfix">
-                        <div class="img">
-                          <img src="portfolio/img/blog2.jpg" class="grayscale" alt="Blog Item"><!-- Blog Image -->
-                        </div>
-                      </div>
-            <br>
-                      <h2>Creative Hearts</h2>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies nulla non metus pulvinar imperdiet. Praesent non adipiscing libero.</p>
-                    </div>
-          <!-- Blog Entry 6 -->
-                    <div class="col-md-4 wp4 delay-1s">
-                      <div class="overlay-effect effects clearfix">
-                        <div class="img">
-                          <img src="portfolio/img/blog3.jpg" class="grayscale" alt="Blog Item"><!-- Blog Image -->
-                        </div>
-                      </div>
-            <br>
-                      <h2>Creative Ideas</h2><!-- Headline -->
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies nulla non metus pulvinar imperdiet. Praesent non adipiscing libero.</p><!-- Description -->
-                    </div>
-                  </li>
-                </ul>
+      <section class="colorlib-services" data-section="services">
+        <div class="colorlib-narrow-content">
+          <div class="row">
+            <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+              <span class="heading-meta">What I do?</span>
+              <h2 class="colorlib-heading">Here are some of my expertise</h2>
+            </div>
+          </div>
+          <div class="row row-pt-md">
+            <div class="col-md-4 text-center animate-box">
+              <div class="services color-1">
+                <span class="icon">
+                  <i class="icon-bulb"></i>
+                </span>
+                <div class="desc">
+                  <h3>Innovative Ideas</h3>
+                  <p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 text-center animate-box">
+              <div class="services color-2">
+                <span class="icon">
+                  <i class="icon-data"></i>
+                </span>
+                <div class="desc">
+                  <h3>Software</h3>
+                  <p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 text-center animate-box">
+              <div class="services color-3">
+                <span class="icon">
+                  <i class="icon-phone3"></i>
+                </span>
+                <div class="desc">
+                  <h3>Application</h3>
+                  <p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 text-center animate-box">
+              <div class="services color-4">
+                <span class="icon">
+                  <i class="icon-layers2"></i>
+                </span>
+                <div class="desc">
+                  <h3>Graphic Design</h3>
+                  <p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 text-center animate-box">
+              <div class="services color-5">
+                <span class="icon">
+                  <i class="icon-data"></i>
+                </span>
+                <div class="desc">
+                  <h3>Software</h3>
+                  <p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 text-center animate-box">
+              <div class="services color-6">
+                <span class="icon">
+                  <i class="icon-phone3"></i>
+                </span>
+                <div class="desc">
+                  <h3>Application</h3>
+                  <p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
+                </div>
               </div>
             </div>
           </div>
-        </section>
-    <!-- ==========================
-        BLOG SECTION END
-        =========================== -->
-    
-        
-        
-        <!-- ==========================
-        CLIENT SECTION 
-        =========================== -->
-        <div class="container-fluid">
-            <div class="row color-bg">
-                <!-- Left Image -->
-                <div class="col-md-6 nopadding features-intro-img wow fadeInLeft">
-                    <div class="about-image" style="background-image:url(portfolio/img/clients.png)"></div>
-                </div>
-                <!-- Clients / Testimonials -->
-                <div class="col-md-6 nopadding about-text">
-                <h6>What our clients said</h6>
-                    <div id="clientSlider">
-                       <ul class="slides">
-                           <li><p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. <br>  <small>- Pete Rock, A New Tomorrow</small></p></li>
-                           <li><p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. <br>  <small>- Michael Snowden, Creativeland CEO</small></p></li>
-                          <li><p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. <br>   <small>- Tom Davis, GreenWonder</small></p> </li>
-                       </ul>
-                    </div>
-                </div>
-            </div>
         </div>
-        <!-- ==========================
-        CLIENTS SECTION END
-        =========================== -->
-        
-        
-        
-        
-        
-        <!-- ==========================
-        NEWSLETTER SECTION 
-        =========================== -->
-        <section>
-        <div class="container-fluid">
-                <div class="row color-bg">
-                    <div class="col-md-6 nopadding subscribe text-center">
-                     <h1><i class="fa fa-paper-plane"></i><span>Subscribe our Newsletter</span></h1><!-- Heading -->
-                     <form action="index.html#">
-                       <input type="text" name="" value="" placeholder="" required><!-- E-Mail -->
-                       <input type="submit" name="" value="Send"><!-- Submit Button -->
-                    </form>   
-                    </div>
-                    <div class="col-md-6 nopadding features-intro-img">
-                         <div class="about-image" style="background-image:url(portfolio/img/newsletter.png)"></div><!-- Right Image -->
-                    </div>
-                </div>
+      </section>
+      
+      <div id="colorlib-counter" class="colorlib-counters" style="background-image: url(portfolio/images/cover_bg_1.jpg);" data-stellar-background-ratio="0.5">
+        <div class="overlay"></div>
+        <div class="colorlib-narrow-content">
+          <div class="row">
+          </div>
+          <div class="row">
+            <div class="col-md-3 text-center animate-box">
+              <span class="colorlib-counter js-counter" data-from="0" data-to="309" data-speed="5000" data-refresh-interval="50"></span>
+              <span class="colorlib-counter-label">Cups of coffee</span>
             </div>
-        </section>
-        <!-- ==========================
-        NEWSLETTER SECTION END
-        =========================== -->
+            <div class="col-md-3 text-center animate-box">
+              <span class="colorlib-counter js-counter" data-from="0" data-to="356" data-speed="5000" data-refresh-interval="50"></span>
+              <span class="colorlib-counter-label">Projects</span>
+            </div>
+            <div class="col-md-3 text-center animate-box">
+              <span class="colorlib-counter js-counter" data-from="0" data-to="30" data-speed="5000" data-refresh-interval="50"></span>
+              <span class="colorlib-counter-label">Clients</span>
+            </div>
+            <div class="col-md-3 text-center animate-box">
+              <span class="colorlib-counter js-counter" data-from="0" data-to="10" data-speed="5000" data-refresh-interval="50"></span>
+              <span class="colorlib-counter-label">Partners</span>
+            </div>
+          </div>
+        </div>
+      </div>
 
-        
-        
-        <!-- ==========================
-        CONTACT SECTION
-        =========================== -->
-        <section class="text-center section-padding contact-wrap" id="contact">
-          <!-- To Top Button -->
-          <a href="index.html#top" class="up-btn"><i class="fa fa-chevron-up"></i></a>
-          <div class="container">
-            <!-- Headline -->
-            <div class="row">
-              <div class="col-md-12">
-                <h1 class="arrow">Drop <span>me</span> a line</h1>
-              </div>
+      <section class="colorlib-skills" data-section="skills">
+        <div class="colorlib-narrow-content">
+          <div class="row">
+            <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+              <span class="heading-meta">My Specialty</span>
+              <h2 class="colorlib-heading animate-box">My Skills</h2>
             </div>
-            <div class="row contact-details">
-              <!-- Adress Box -->
-              <div class="col-md-4">
-                <div class="dark-box box-hover">
-                  <h2><i class="fa fa-map-marker"></i><span>Address</span></h2>
-                   <p>10 blk. 2 Phase 5B Bragados St. Greenwoods, Pasig
-                  
-                </div>
-              </div>
-              <!-- Phone Number Box -->
-              <div class="col-md-4">
-                <div class="dark-box box-hover">
-                  <h2><i class="fa fa-mobile"></i><span>Phone</span></h2>
-                  <p>+630263266748 / +639216233121</p>
-                </div>
-              </div>
-              <!-- E-Mail Box -->
-              <div class="col-md-4">
-                <div class="dark-box box-hover">
-                  <h2><i class="fa fa-paper-plane"></i><span>Email</span></h2>
-                  <p><a href="index.html#">jaysondelapaz16@gmail.com.com</a></p>
+          </div>
+          <div class="row">
+            <div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
+              <p>The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn’t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.</p>
+            </div>
+            <div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+              <div class="progress-wrap">
+                <h3>Photoshop</h3>
+                <div class="progress">
+                  <div class="progress-bar color-1" role="progressbar" aria-valuenow="75"
+                    aria-valuemin="0" aria-valuemax="100" style="width:75%">
+                    <span>75%</span>
+                    </div>
                 </div>
               </div>
             </div>
-            <div class="row">
-              <!-- Google Maps (Change your Settings below) -->
-              <div class="col-md-12">
-                <div id="googlemaps">
-                    
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3861.6475756387363!2d121.0950001143198!3d14.562135081923433!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c7cb77e6ea3b%3A0x5e7986538f3d27ca!2sGreenwoods+Executive+Village!5e0!3m2!1sen!2sph!4v1553499776068" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+            <div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+              <div class="progress-wrap">
+                <h3>jQuery</h3>
+                <div class="progress">
+                  <div class="progress-bar color-2" role="progressbar" aria-valuenow="60"
+                    aria-valuemin="0" aria-valuemax="100" style="width:60%">
+                    <span>60%</span>
+                    </div>
                 </div>
               </div>
-           <?php /*   
-              <!-- Contact Form -->
-              <div class="col-md-6 contact">
-                 <form role="form">
-                            <!-- Name -->
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <!-- E-Mail -->
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" placeholder="Your name">
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <!-- Phone Number -->
-                                    <div class="form-group">
-                                        <input type="email" class="form-control" placeholder="Email address">
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Message Area -->
-                            <div class="form-group">
-                                <textarea class="form-control" placeholder="Write you message here..." style="height:232px;"></textarea>
-                            </div>
-                            <!-- Subtmit Button -->
-                            <button type="submit" class="btn btn-send">
-                                Send message
-                            </button>
-                        </form>
+            </div>
+            <div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+              <div class="progress-wrap">
+                <h3>HTML5</h3>
+                <div class="progress">
+                  <div class="progress-bar color-3" role="progressbar" aria-valuenow="85"
+                    aria-valuemin="0" aria-valuemax="100" style="width:85%">
+                    <span>85%</span>
+                    </div>
+                </div>
               </div>
             </div>
-            <br>
-            <!-- Social Buttons - use font-awesome, past in what you want -->
-            <div class="row">
-              <div class="col-md-12">
-                <ul class="social-buttons">
-                  <li><a href="index.html#" class="social-btn"><i class="fa fa-dribbble"></i></a></li><!-- dribble -->
-                  <li><a href="index.html#" class="social-btn"><i class="fa fa-twitter"></i></a></li><!-- twitter -->
-                  <li><a href="index.html#" class="social-btn"><i class="fa fa-facebook"></i></a></li><!-- facebook -->
-                  <li><a href="index.html#" class="social-btn"><i class="fa fa-deviantart"></i></a></li><!-- deviantart -->
-                  <li><a href="index.html#" class="social-btn"><i class="fa fa-youtube"></i></a></li><!-- youtube -->
-                </ul>
+            <div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+              <div class="progress-wrap">
+                <h3>CSS3</h3>
+                <div class="progress">
+                  <div class="progress-bar color-4" role="progressbar" aria-valuenow="90"
+                    aria-valuemin="0" aria-valuemax="100" style="width:90%">
+                    <span>90%</span>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+              <div class="progress-wrap">
+                <h3>WordPress</h3>
+                <div class="progress">
+                  <div class="progress-bar color-5" role="progressbar" aria-valuenow="70"
+                    aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                    <span>70%</span>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+              <div class="progress-wrap">
+                <h3>SEO</h3>
+                <div class="progress">
+                  <div class="progress-bar color-6" role="progressbar" aria-valuenow="80"
+                    aria-valuemin="0" aria-valuemax="100" style="width:80%">
+                    <span>80%</span>
+                    </div>
+                </div>
               </div>
             </div>
           </div>
-        </section>
-        <!-- ==========================
-        CONTACT SECTION END
-        =========================== -->
-        */?>
-        
-        
-        <!-- ==========================
-        FOOTER SECTION
-        =========================== -->
-        <footer>
-          <div class="container">
-            <div class="row">
-              <div class="col-md-12 text-center">
-                <p>All Rights Reserved. &copy; 2019. Power by: <a href="http://www.themewagon.com">ThemeWagon</a>
+        </div>
+      </section>
+
+      <section class="colorlib-education" data-section="education">
+        <div class="colorlib-narrow-content">
+          <div class="row">
+            <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+              <span class="heading-meta">Education</span>
+              <h2 class="colorlib-heading animate-box">Education</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
+              <div class="fancy-collapse-panel">
+                <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                  <div class="panel panel-default">
+                      <div class="panel-heading" role="tab" id="headingOne">
+                          <h4 class="panel-title">
+                              <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Bachelor of Information Technology
+                              </a>
+                          </h4>
+                      </div>
+                      <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                           <div class="panel-body">
+                              <div class="row">
+                              <div class="col-md-6">
+                                <p>ICAS College <br>
+                                  Dela Paz Street, Marcus highway, Pasig City<br />
+                                  2017 -2019<br>
+                                  Graduate
+                                </p>
+
+                              </div>
+                              {{-- <div class="col-md-6">
+                                <p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+                              </div> --}}
+                            </div>
+                           </div>
+                      </div>
+                  </div>
+                  <div class="panel panel-default">
+                      <div class="panel-heading" role="tab" id="headingTwo">
+                          <h4 class="panel-title">
+                              <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Associate of Computer Science
+                              </a>
+                          </h4>
+                      </div>
+                      <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                          <div class="panel-body">
+                              <p>Infotect Institute of Arts and Sciences<br >
+                               Shaw Boulevard, Mandaluyong City<br>
+                                2011 - 2013<br>
+                                Graduate
+                              </p>
+                          </div>
+                      </div>
+                  </div>
+                  {{-- <div class="panel panel-default">
+                      <div class="panel-heading" role="tab" id="headingThree">
+                          <h4 class="panel-title">
+                              <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Diploma in Information Technology
+                              </a>
+                          </h4>
+                      </div>
+                      <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                          <div class="panel-body">
+                              <p>Far far away, behind the word <strong>mountains</strong>, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p> 
+                          </div>
+                      </div>
+                  </div>
+
+                  <div class="panel panel-default">
+                      <div class="panel-heading" role="tab" id="headingFour">
+                          <h4 class="panel-title">
+                              <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">Diploma in Information Technology
+                              </a>
+                          </h4>
+                      </div>
+                      <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+                          <div class="panel-body">
+                              <p>Far far away, behind the word <strong>mountains</strong>, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p> 
+                          </div>
+                      </div>
+                  </div>
+ --}}
+                  <div class="panel panel-default">
+                      <div class="panel-heading" role="tab" id="headingFive">
+                          <h4 class="panel-title">
+                              <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">High School Secondary Education
+                              </a>
+                          </h4>
+                      </div>
+                      <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
+                          <div class="panel-body">
+                              <p>Neuve Ecija High School<br>
+                                Cabanatuan City, Nueva Ecija<br>
+                                2004-2008<br>
+                                Graduate
+                              </p> 
+                          </div>
+                      </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-        </footer>
-        <!-- ==========================
-        FOOTER SECTION END
-        =========================== -->     
-        
-        
-    <!-- jQuery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <!-- SmoothScroll -->           
-    <script type="text/javascript" src="portfolio/assets/smoothscroll/smoothscroll.js"></script>
-    <!-- Bootstrap -->
-    <script src="portfolio/assets/bootstrap/js/bootstrap.min.js"></script>
-    <!-- Waypoints -->
-    <script src="portfolio/js/waypoints.min.js"></script>
-    <!-- classie.js -->
-    <script src="portfolio/js/classie.js"></script>
-    <!-- FlexSlider -->
-    <script src="portfolio/assets/flexslider/jquery.flexslider.js"></script>
-    <!-- Modernizr -->
-    <script src="portfolio/js/modernizr.js"></script>
-    <!-- Text Rotator -->
-    <script src="portfolio/assets/textrotator/jquery.simple-text-rotator.js"></script>
-    <!-- Lightbox.js -->
-    <script src="portfolio/assets/lightbox/js/lightbox.min.js"></script>
-    <!-- Google Maps --> 
-    {{-- <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDeKBBPJTG3v5w3cNPAgM6ZsJiPyL1mP_o&amp;sensor=false"></script> --}}
-    <!-- Theme JavaScript Core -->
-    <script src="portfolio/js/main.js"></script>
-    <script src="portfolio/js/script.js"></script>
+        </div>
+      </section>
 
-    <!-- GOOGLE MAPS DATA -->
-    <script type="text/javascript">
-    
-    
-    </script>
-    
-    <!-- TEXT ROTATOR SETTINGS -->
-    <script type="text/javascript">
-    $(".rotate").textrotator({
-      animation: "fade", // You can pick the way it animates when rotating through words. Options are dissolve (default), fade, flip, flipUp, flipCube, flipCubeUp and spin.
-      separator: ",", // If you don't want commas to be the separator, you can define a new separator (|, &, * etc.) by yourself using this field.
-      speed: 2000 // How many milliseconds until the next word show.
-    });
-    </script>
-    
-    </body>
+      <section class="colorlib-experience" data-section="experience">
+        <div class="colorlib-narrow-content">
+          <div class="row">
+            <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+              <span class="heading-meta">Experience</span>
+              <h2 class="colorlib-heading animate-box">Work Experience</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+                 <div class="timeline-centered">
+                   <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+                      <div class="timeline-entry-inner">
+
+                         <div class="timeline-icon color-1">
+                            <i class="icon-pen2"></i>
+                         </div>
+
+                         <div class="timeline-label">
+                            <h2><a href="#">MIS (Manage Information System)</a> <span>Decmeber 2017- March 2019</span><br>
+                            G-Series Marketing Concept Inc.
+                            </h2>
+                           
+                            <p>Help to develop 50% of ERP web system. together senior programmer</p>
+                            <p>Setup on premise server, installation networking and debuging</p>
+                         </div>
+                      </div>
+                   </article>
+
+
+                   <article class="timeline-entry animate-box" data-animate-effect="fadeInRight">
+                      <div class="timeline-entry-inner">
+                         <div class="timeline-icon color-2">
+                            <i class="icon-pen2"></i>
+                         </div>
+                         <div class="timeline-label">
+                          <h2><a href="#">IT Web Programmer</a> <span>May 2016-Dec 2017</span><br>
+                            LED Management Training Services
+                          </h2>
+                       
+                            <p>Revamped existing web system</p>
+                            <p>Tech Support Hardware and Software</p>
+                         </div>
+                      </div>
+                   </article>
+
+                   {{-- <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+                      <div class="timeline-entry-inner">
+                         <div class="timeline-icon color-3">
+                            <i class="icon-pen2"></i>
+                         </div>
+                         <div class="timeline-label">
+                          <h2><a href="#">System Analyst</a> <span>2017-2018</span></h2>
+                            <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
+                         </div>
+                      </div>
+                   </article>
+
+                   <article class="timeline-entry animate-box" data-animate-effect="fadeInTop">
+                      <div class="timeline-entry-inner">
+                         <div class="timeline-icon color-4">
+                            <i class="icon-pen2"></i>
+                         </div>
+                         <div class="timeline-label">
+                          <h2><a href="#">Creative Designer</a> <span>2017-2018</span></h2>
+                            <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
+                         </div>
+                      </div>
+                   </article>
+
+                   <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+                      <div class="timeline-entry-inner">
+                         <div class="timeline-icon color-5">
+                            <i class="icon-pen2"></i>
+                         </div>
+                         <div class="timeline-label">
+                          <h2><a href="#">UI/UX Designer at Envato</a> <span>2017-2018</span></h2>
+                            <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
+                         </div>
+                      </div>
+                   </article> --}}
+
+                   <article class="timeline-entry begin animate-box" data-animate-effect="fadeInBottom">
+                      <div class="timeline-entry-inner">
+                         <div class="timeline-icon color-none">
+                         </div>
+                      </div>
+                   </article>
+                </div>
+             </div>
+           </div>
+        </div>
+      </section>
+
+      <section class="colorlib-work" data-section="work">
+        <div class="colorlib-narrow-content">
+          <div class="row">
+            <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+              <span class="heading-meta">My Work</span>
+              <h2 class="colorlib-heading animate-box">Recent Work</h2>
+            </div>
+          </div>
+          <div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
+            <div class="col-md-12">
+              <p class="work-menu"><span><a href="#" class="active">Web application</a></span> <span><a href="#">Web Design</a></span> <span><a href="#">Software</a></span> <span><a href="#">Apps</a></span></p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+              <div class="project" style="background-image: url(portfolio/images/Homepage.jpg);">
+                <div class="desc">
+                  <div class="con">
+                    <h3><a href="work.html">Laravel - Inventory System</a></h3>
+                    <span>Web System</span>
+                    <p class="icon">
+                      <span><a href="#">Visit</a></span>
+                     {{--  <span><a href="#"><i class="icon-share3"></i></a></span>
+                      <span><a href="#"><i class="icon-eye"></i> 100</a></span>
+                      <span><a href="#"><i class="icon-heart"></i> 49</a></span> --}}
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+              <div class="project" style="background-image: url(portfolio/images/stockout.jpg);">
+                <div class="desc">
+                  <div class="con">
+                    <h3><a href="work.html">Laravel - Inventory System</a></h3>
+                    <span>Scrn shot</span>
+                    <p class="icon">
+                      <span><a href="#">Visit</a></span>
+                      {{-- <span><a href="#"><i class="icon-share3"></i></a></span>
+                      <span><a href="#"><i class="icon-eye"></i> 100</a></span>
+                      <span><a href="#"><i class="icon-heart"></i> 49</a></span> --}}
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 animate-box" data-animate-effect="fadeInTop">
+              <div class="project" style="background-image: url(portfolio/images/stockout.jpg);">
+                <div class="desc">
+                  <div class="con">
+                    <h3><a href="work.html">Work 03</a></h3>
+                    <span>Illustration</span>
+                    <p class="icon">
+                      <span><a href="#"><i class="icon-share3"></i></a></span>
+                      <span><a href="#"><i class="icon-eye"></i> 100</a></span>
+                      <span><a href="#"><i class="icon-heart"></i> 49</a></span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 animate-box" data-animate-effect="fadeInBottom">
+              <div class="project" style="background-image: url(images/img-4.jpg);">
+                <div class="desc">
+                  <div class="con">
+                    <h3><a href="work.html">Work 04</a></h3>
+                    <span>Application</span>
+                    <p class="icon">
+                      <span><a href="#"><i class="icon-share3"></i></a></span>
+                      <span><a href="#"><i class="icon-eye"></i> 100</a></span>
+                      <span><a href="#"><i class="icon-heart"></i> 49</a></span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+              <div class="project" style="background-image: url(images/img-5.jpg);">
+                <div class="desc">
+                  <div class="con">
+                    <h3><a href="work.html">Work 05</a></h3>
+                    <span>Graphic, Logo</span>
+                    <p class="icon">
+                      <span><a href="#"><i class="icon-share3"></i></a></span>
+                      <span><a href="#"><i class="icon-eye"></i> 100</a></span>
+                      <span><a href="#"><i class="icon-heart"></i> 49</a></span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+              <div class="project" style="background-image: url(images/img-6.jpg);">
+                <div class="desc">
+                  <div class="con">
+                    <h3><a href="work.html">Work 06</a></h3>
+                    <span>Web Design</span>
+                    <p class="icon">
+                      <span><a href="#"><i class="icon-share3"></i></a></span>
+                      <span><a href="#"><i class="icon-eye"></i> 100</a></span>
+                      <span><a href="#"><i class="icon-heart"></i> 49</a></span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12 animate-box">
+              <p><a href="#" class="btn btn-primary btn-lg btn-load-more">Load more <i class="icon-reload"></i></a></p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="colorlib-blog" data-section="blog">
+        <div class="colorlib-narrow-content">
+          <div class="row">
+            <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+              <span class="heading-meta">Read</span>
+              <h2 class="colorlib-heading">Recent Blog</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
+              <div class="blog-entry">
+                <a href="blog.html" class="blog-img"><img src="portfolio/images/blog-1.jpg" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
+                <div class="desc">
+                  <span><small>April 14, 2018 </small> | <small> Web Design </small> | <small> <i class="icon-bubble3"></i> 4</small></span>
+                  <h3><a href="blog.html">Renovating National Gallery</a></h3>
+                  <p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInRight">
+              <div class="blog-entry">
+                <a href="blog.html" class="blog-img"><img src="portfolio/images/blog-2.jpg" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
+                <div class="desc">
+                  <span><small>April 14, 2018 </small> | <small> Web Design </small> | <small> <i class="icon-bubble3"></i> 4</small></span>
+                  <h3><a href="blog.html">Wordpress for a Beginner</a></h3>
+                  <p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
+              <div class="blog-entry">
+                <a href="blog.html" class="blog-img"><img src="portfolio/images/blog-3.jpg" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
+                <div class="desc">
+                  <span><small>April 14, 2018 </small> | <small> Inspiration </small> | <small> <i class="icon-bubble3"></i> 4</small></span>
+                  <h3><a href="blog.html">Make website from scratch</a></h3>
+                  <p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12 animate-box">
+              <p><a href="#" class="btn btn-primary btn-lg btn-load-more">Load more <i class="icon-reload"></i></a></p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="colorlib-contact" data-section="contact">
+        <div class="colorlib-narrow-content">
+          <div class="row">
+            <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+              <span class="heading-meta">Get in Touch</span>
+              <h2 class="colorlib-heading">Contact</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-5">
+              <div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
+                <div class="colorlib-icon">
+                  <i class="icon-globe-outline"></i>
+                </div>
+                <div class="colorlib-text">
+                  <p><a href="#">info@domain.com</a></p>
+                </div>
+              </div>
+
+              <div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
+                <div class="colorlib-icon">
+                  <i class="icon-map"></i>
+                </div>
+                <div class="colorlib-text">
+                  <p>#10 Blk 2 Phase 5B, Bragados Street, Greenwoods, Pasig City</p>
+                </div>
+              </div>
+
+              <div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
+                <div class="colorlib-icon">
+                  <i class="icon-phone"></i>
+                </div>
+                <div class="colorlib-text">
+                  <p><a href="tel://">+63926 3266748 / +63921 6233121</a></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-7 col-md-push-1">
+              <div class="row">
+                <div class="col-md-10 col-md-offset-1 col-md-pull-1 animate-box" data-animate-effect="fadeInRight">
+                  <form action="">
+                    <div class="form-group">
+                      <input type="text" class="form-control" placeholder="Name">
+                    </div>
+                    <div class="form-group">
+                      <input type="text" class="form-control" placeholder="Email">
+                    </div>
+                    <div class="form-group">
+                      <input type="text" class="form-control" placeholder="Subject">
+                    </div>
+                    <div class="form-group">
+                      <textarea name="" id="message" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
+                    </div>
+                    <div class="form-group">
+                      <input type="submit" class="btn btn-primary btn-send-message" value="Send Message">
+                    </div>
+                  </form>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </div><!-- end:colorlib-main -->
+  </div><!-- end:container-wrap -->
+  </div><!-- end:colorlib-page -->
+
+  <!-- jQuery -->
+  <script src="portfolio/js/jquery.min.js"></script>
+  <!-- jQuery Easing -->
+  <script src="portfolio/js/jquery.easing.1.3.js"></script>
+  <!-- Bootstrap -->
+  <script src="portfolio/js/bootstrap.min.js"></script>
+  <!-- Waypoints -->
+  <script src="portfolio/js/jquery.waypoints.min.js"></script>
+  <!-- Flexslider -->
+  <script src="portfolio/js/jquery.flexslider-min.js"></script>
+  <!-- Owl carousel -->
+  <script src="portfolio/js/owl.carousel.min.js"></script>
+  <!-- Counters -->
+  <script src="portfolio/js/jquery.countTo.js"></script>
+  
+  
+  <!-- MAIN JS -->
+  <script src="portfolio/js/main.js"></script>
+
+  </body>
 </html>
+
