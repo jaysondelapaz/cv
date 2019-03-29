@@ -56,26 +56,28 @@
     <a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
     <aside id="colorlib-aside" role="complementary" class="border js-fullheight">
       <div class="text-center">
-        <div class="author-img" style="background-image: url(portfolio/images/about.jpg);"></div>
+        <div class="author-img" style="background-image: url(portfolio/images/profile.jpg);"></div>
         <h1 id="colorlib-logo"><a href="index.html">Jayson Dela Paz</a></h1>
         <span class="position"><a href="#">Aspiry Web Developer</a> in Philippines</span>
       </div>
       <nav id="colorlib-main-menu" role="navigation" class="navbar">
         <div id="navbar" class="collapse">
           <ul>
+              <li><a href="#" data-nav-section="services"></a></li>
             <li class="active"><a href="#" data-nav-section="home">Home</a></li>
             <li><a href="#" data-nav-section="about">About</a></li>
-           {{--  <li><a href="#" data-nav-section="services">Services</a></li> --}}
+          
             <li><a href="#" data-nav-section="skills">Skills</a></li>
             <li><a href="#" data-nav-section="education">Education</a></li>
             <li><a href="#" data-nav-section="experience">Experience</a></li>
             <li><a href="#" data-nav-section="work">Work</a></li>
-            {{-- <li><a href="#" data-nav-section="blog">Blog</a></li> --}}
             <li><a href="#" data-nav-section="contact">Contact</a></li>
+
           </ul>
         </div>
+         <center><a  class="btn btn-primary" href="{{route('Backend.download')}}" >Download my CV</a></center>
       </nav>
-
+     
       <div class="colorlib-footer">
         <p><small>&copy; <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
@@ -95,7 +97,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
       <section id="colorlib-hero" class="js-fullheight" data-section="home">
         <div class="flexslider js-fullheight">
           <ul class="slides">
-            <li style="background-image: url(portfolio/images/img_bg_1.jpg);">
+            <li style="background-image: url(portfolio/images/homepic1.jpg);">
               <div class="overlay"></div>
               <div class="container-fluid">
                 <div class="row">
@@ -105,14 +107,14 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
                         <h1>Hi! <br>I'm Jayson</h1>
                         <h2>Student,Dreamer and Web Developer</h2>
                         {{-- <h2>100% html5 bootstrap templates Made by <a href="https://colorlib.com/" target="_blank">colorlib.com</a></h2> --}}
-                        <p><a href="{{asset('portfolio/images/stockout.jpg')}}" class="btn btn-primary btn-learn">Download CV <i class="icon-download4"></i></a></p>
+                        <p><a href="{{route('Backend.download')}}" target="_blank" class="btn btn-primary btn-learn">Download CV <i class="icon-download4"></i></a></p>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
             </li>
-            <li style="background-image: url(portfolio/images/img_bg_2.jpg);">
+            <li style="background-image: url(portfolio/images/homepic.jpg);">
               <div class="overlay"></div>
               <div class="container-fluid">
                 <div class="row">
@@ -146,151 +148,6 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
                   </div>
                 </div>
               </div>
-              {{-- <div class="row">
-                <div class="col-md-3 animate-box" data-animate-effect="fadeInLeft">
-                  <div class="services color-1">
-                    <span class="icon2"><i class="icon-bulb"></i></span>
-                    <h3>Graphic Design</h3>
-                  </div>
-                </div>
-                <div class="col-md-3 animate-box" data-animate-effect="fadeInRight">
-                  <div class="services color-2">
-                    <span class="icon2"><i class="icon-globe-outline"></i></span>
-                    <h3>Web Design</h3>
-                  </div>
-                </div>
-                <div class="col-md-3 animate-box" data-animate-effect="fadeInTop">
-                  <div class="services color-3">
-                    <span class="icon2"><i class="icon-data"></i></span>
-                    <h3>Software</h3>
-                  </div>
-                </div>
-                <div class="col-md-3 animate-box" data-animate-effect="fadeInBottom">
-                  <div class="services color-4">
-                    <span class="icon2"><i class="icon-phone3"></i></span>
-                    <h3>Application</h3>
-                  </div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
-                  <div class="hire">
-                    <h2>I am happy to know you <br>that 300+ projects done sucessfully!</h2>
-                    <a href="#" class="btn-hire">Hire me</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
- --}}
-
-      
-     {{--  <section class="colorlib-services" data-section="services">
-        <div class="colorlib-narrow-content">
-          <div class="row">
-            <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-              <span class="heading-meta">What I do?</span>
-              <h2 class="colorlib-heading">Here are some of my expertise</h2>
-            </div>
-          </div>
-          <div class="row row-pt-md">
-            <div class="col-md-4 text-center animate-box">
-              <div class="services color-1">
-                <span class="icon">
-                  <i class="icon-bulb"></i>
-                </span>
-                <div class="desc">
-                  <h3>Innovative Ideas</h3>
-                  <p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 text-center animate-box">
-              <div class="services color-2">
-                <span class="icon">
-                  <i class="icon-data"></i>
-                </span>
-                <div class="desc">
-                  <h3>Software</h3>
-                  <p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 text-center animate-box">
-              <div class="services color-3">
-                <span class="icon">
-                  <i class="icon-phone3"></i>
-                </span>
-                <div class="desc">
-                  <h3>Application</h3>
-                  <p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 text-center animate-box">
-              <div class="services color-4">
-                <span class="icon">
-                  <i class="icon-layers2"></i>
-                </span>
-                <div class="desc">
-                  <h3>Graphic Design</h3>
-                  <p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 text-center animate-box">
-              <div class="services color-5">
-                <span class="icon">
-                  <i class="icon-data"></i>
-                </span>
-                <div class="desc">
-                  <h3>Software</h3>
-                  <p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 text-center animate-box">
-              <div class="services color-6">
-                <span class="icon">
-                  <i class="icon-phone3"></i>
-                </span>
-                <div class="desc">
-                  <h3>Application</h3>
-                  <p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section> --}}
-      
-      {{-- <div id="colorlib-counter" class="colorlib-counters" style="background-image: url(portfolio/images/cover_bg_1.jpg);" data-stellar-background-ratio="0.5">
-        <div class="overlay"></div>
-        <div class="colorlib-narrow-content">
-          <div class="row">
-          </div>
-          <div class="row">
-            <div class="col-md-3 text-center animate-box">
-              <span class="colorlib-counter js-counter" data-from="0" data-to="309" data-speed="5000" data-refresh-interval="50"></span>
-              <span class="colorlib-counter-label">Cups of coffee</span>
-            </div>
-            <div class="col-md-3 text-center animate-box">
-              <span class="colorlib-counter js-counter" data-from="0" data-to="356" data-speed="5000" data-refresh-interval="50"></span>
-              <span class="colorlib-counter-label">Projects</span>
-            </div>
-            <div class="col-md-3 text-center animate-box">
-              <span class="colorlib-counter js-counter" data-from="0" data-to="30" data-speed="5000" data-refresh-interval="50"></span>
-              <span class="colorlib-counter-label">Clients</span>
-            </div>
-            <div class="col-md-3 text-center animate-box">
-              <span class="colorlib-counter js-counter" data-from="0" data-to="10" data-speed="5000" data-refresh-interval="50"></span>
-              <span class="colorlib-counter-label">Partners</span>
-            </div>
-          </div>
-        </div>
-      </div> --}}
 
       <section class="colorlib-skills" data-section="skills">
         <div class="colorlib-narrow-content">
@@ -301,9 +158,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
             </div>
           </div>
           <div class="row">
-            {{-- <div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
-              <p>The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn’t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.</p>
-            </div> --}}
+           
             <div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
               <div class="progress-wrap">
                 <h3>Photoshop</h3>
@@ -520,7 +375,8 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
           </div>
           <div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
             <div class="col-md-12">
-              <p class="work-menu"><span><a href="#" class="active">Web application</a></span> <span><a href="#">Web Design</a></span> <span><a href="#">Software</a></span> <span><a href="#">Apps</a></span></p>
+              <p class="work-menu"><span><a href="#" class="active">Web application</a></span> {{-- <span><a href="#">Web Design</a></span> <span><a href="#">Software</a></span> <span><a href="#">Apps</a></span> --}}</p>
+              <p>For demo purpose use default username: "admin" and password: "admin".</p>
             </div>
           </div>
           <div class="row">
@@ -528,13 +384,11 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
               <div class="project" style="background-image: url(portfolio/images/Homepage.jpg);">
                 <div class="desc">
                   <div class="con">
-                    <h3><a href="work.html">Laravel - Inventory System</a></h3>
-                    <span>Web System</span>
+                    <h3><a href="#" target="_blank">Inventory System</a></h3>
+                    <span>Laravel Framework</span>
                     <p class="icon">
-                      <span><a href="#">Visit</a></span>
-                     {{--  <span><a href="#"><i class="icon-share3"></i></a></span>
-                      <span><a href="#"><i class="icon-eye"></i> 100</a></span>
-                      <span><a href="#"><i class="icon-heart"></i> 49</a></span> --}}
+                      <span><a href="#" target="_blank" class="btn btn-primary btn-learn" target="_blank">Visit</a></span>
+                    
                     </p>
                   </div>
                 </div>
@@ -544,10 +398,61 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
               <div class="project" style="background-image: url(portfolio/images/stockout.jpg);">
                 <div class="desc">
                   <div class="con">
-                    <h3><a href="work.html">Laravel - Inventory System</a></h3>
-                    <span>Scrn shot</span>
+                    <h3><a href="#" target="_blank" class="btn btn-primary btn-learn">Inventory System</a></h3>
+                    <span>Laravel Framework</span>
                     <p class="icon">
-                      <span><a href="#">Visit</a></span>
+                      <span><a href="#" class="btn btn-primary btn-learn" target="_blank">Visit</a></span>
+                      
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 animate-box" data-animate-effect="fadeInTop">
+              <div class="project" style="background-image: url(portfolio/images/dms1.jpg);">
+                <div class="desc">
+                  <div class="con">
+                    <h3><a href="#" target="_blank">PHP - Document Management (School Project)</a></h3>
+                    <span>PHP and Mysql (Mysqli)</span>
+                     <p class="icon">
+                      <span><a href="http://www.jaysondelapaz.com" target="_blank" class="btn btn-primary btn-learn">Visit</a></span>
+                      
+                    </p>
+                    {{-- <p class="icon">
+                      <span><a href="#"><i class="icon-share3"></i></a></span>
+                      <span><a href="#"><i class="icon-eye"></i> 100</a></span>
+                      <span><a href="#"><i class="icon-heart"></i> 49</a></span>
+                    </p> --}}
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 animate-box" data-animate-effect="fadeInBottom">
+              <div class="project" style="background-image: url(portfolio/images/dms2.jpg);">
+                <div class="desc">
+                  <div class="con">
+                    <h3><a href="http://www.jaysondelapaz.com" target="_blank">Document Management (School Project)</a></h3>
+                    <span>PHP and Mysql (Mysqli)</span>
+                     <p class="icon">
+                      <span><a href="#" class="btn btn-primary btn-learn" target="_blank">Visit</a></span>
+                    </p>
+                    {{-- <p class="icon">
+                      <span><a href="#"><i class="icon-share3"></i></a></span>
+                      <span><a href="#"><i class="icon-eye"></i> 100</a></span>
+                      <span><a href="#"><i class="icon-heart"></i> 49</a></span>
+                    </p> --}}
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+              <div class="project" style="background-image: url(portfolio/images/capstone2.jpg);">
+                <div class="desc">
+                  <div class="con">
+                    <h3><a href="#" target="_blank">Ticketing System (Popcom) - Capstone </a></h3>
+                    <span>PHP and Mysql (PDO)</span>
+                    <p class="icon">
+                      <span><a href="#" class="btn btn-primary btn-learn" target="_blank">Visit</a></span>
                       {{-- <span><a href="#"><i class="icon-share3"></i></a></span>
                       <span><a href="#"><i class="icon-eye"></i> 100</a></span>
                       <span><a href="#"><i class="icon-heart"></i> 49</a></span> --}}
@@ -556,61 +461,17 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
                 </div>
               </div>
             </div>
-            <div class="col-md-6 animate-box" data-animate-effect="fadeInTop">
-              <div class="project" style="background-image: url(portfolio/images/stockout.jpg);">
-                <div class="desc">
-                  <div class="con">
-                    <h3><a href="work.html">Work 03</a></h3>
-                    <span>Illustration</span>
-                    <p class="icon">
-                      <span><a href="#"><i class="icon-share3"></i></a></span>
-                      <span><a href="#"><i class="icon-eye"></i> 100</a></span>
-                      <span><a href="#"><i class="icon-heart"></i> 49</a></span>
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6 animate-box" data-animate-effect="fadeInBottom">
-              <div class="project" style="background-image: url(portfolio/images/img-4.jpg);">
-                <div class="desc">
-                  <div class="con">
-                    <h3><a href="work.html">Work 04</a></h3>
-                    <span>Application</span>
-                    <p class="icon">
-                      <span><a href="#"><i class="icon-share3"></i></a></span>
-                      <span><a href="#"><i class="icon-eye"></i> 100</a></span>
-                      <span><a href="#"><i class="icon-heart"></i> 49</a></span>
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-              <div class="project" style="background-image: url(portforlio/images/img-5.jpg);">
-                <div class="desc">
-                  <div class="con">
-                    <h3><a href="work.html">Work 05</a></h3>
-                    <span>Graphic, Logo</span>
-                    <p class="icon">
-                      <span><a href="#"><i class="icon-share3"></i></a></span>
-                      <span><a href="#"><i class="icon-eye"></i> 100</a></span>
-                      <span><a href="#"><i class="icon-heart"></i> 49</a></span>
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
             <div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
-              <div class="project" style="background-image: url(portfolio/images/img-6.jpg);">
+              <div class="project" style="background-image: url(portfolio/images/capstone_report.jpg);">
                 <div class="desc">
                   <div class="con">
-                    <h3><a href="work.html">Work 06</a></h3>
-                    <span>Web Design</span>
+                    <h3><a href="#" target="_blank">Ticketing System (Popcom) - Capstone</a></h3>
+                    <span>PHP and Mysql (PDO)</span>
                     <p class="icon">
-                      <span><a href="#"><i class="icon-share3"></i></a></span>
+                      <span><a href="#" class="btn btn-primary btn-learn" target="_blank">Visit</a></span>
+                      {{-- <span><a href="#"><i class="icon-share3"></i></a></span>
                       <span><a href="#"><i class="icon-eye"></i> 100</a></span>
-                      <span><a href="#"><i class="icon-heart"></i> 49</a></span>
+                      <span><a href="#"><i class="icon-heart"></i> 49</a></span> --}}
                     </p>
                   </div>
                 </div>

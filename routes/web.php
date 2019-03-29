@@ -11,6 +11,11 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+// Route::get('/', function () {
+//     return view('welcome');
+// });
+
+Route::group(['as' => "Backend.",'prefix'=>""],function (){
+	$this->get('/',['as'=>"index",'uses'=>"Custom\CvController@index"]);
+	$this->get('download',['as'=>"download",'uses'=>"Custom\CvController@downloadcv"]);
 });
